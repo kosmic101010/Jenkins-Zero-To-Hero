@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/kosmic101010/java-cicd.git'
+        //git branch: 'main', url: 'https://github.com/kosmic101010/Jenkins-Zero-To-Hero'
       }
     }
     stage('Build and Test') {
